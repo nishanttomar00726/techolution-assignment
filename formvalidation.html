@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <link rel="stylesheet" href="styles.css">
+  <body>
+<form class="form" action="" onsubmit="return validate()" method="post">
+<label>Name : </label><input  id="name"class="a1" type="text" name="name" required pattern="[A-Za-z]{1,20}" /> *(accepts only alphabets a-zA-Z, max character size:20)
+<br /><br />
+<label> Last Name : </label><input id="last" class="a1" type="text" name="last" required pattern="[A-Za-z]{1,20}"/> *(accepts only alphabets a-zA-Z, max character size:20)
+<br /><br />
+<label>Class : </label><input id="class"class="a1" type="text" name="class" pattern="[A-Za-z0-9]+" /> *(accepts both numeric and string values, eg. 5A)<br /><br />
+<label>Passing year : </label><input id="year" class="a1"type="number" name="year" pattern="[0-9]" max="2017"/> *(accepts only number, any year after 2017 should be invalid)<br /><br />
+<label>Percentage : </label><input id="percentage" class="a1" type="number" name="percentage" pattern="[0-9]" max="100" /> *(accepts only number)<br /><br />
+<input class="a1" type="submit" value="submit" name="butt" />
+</form>
+
+  <script src="index.js"></script>
+  </body>
+</html>

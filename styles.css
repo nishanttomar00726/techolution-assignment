@@ -1,0 +1,17 @@
+body{
+  background-color: #ebecf1;
+ font-size: 30px;
+ font-weight: bold;
+}
+.a1{
+  text-align: center;
+}
+table, th, td {
+  border: 1px solid black;
+}
+.fail{
+  color: red;
+}
+.topper{
+  color:green;
+}
